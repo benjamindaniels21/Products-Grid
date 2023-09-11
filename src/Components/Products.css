@@ -1,7 +1,13 @@
 .container{
   display: grid;
+  gap: 1rem;
 }
 
-.item{
+.card{
   background-color: blueviolet;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
 }
