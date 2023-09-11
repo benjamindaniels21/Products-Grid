@@ -1,13 +1,20 @@
 .container{
-  display: grid;
-  gap: 1rem;
+  max-width: 100rem;
+  margin-inline: auto;
+  /* padding-inline: 2rem; */
+  margin: 1rem;
 }
 
 .card{
-  background-color: blueviolet;
+  background-color: grey;
 }
 
 .card img {
   height: 200px;
   width: 200px;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
