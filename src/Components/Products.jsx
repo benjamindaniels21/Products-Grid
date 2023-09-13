@@ -13,6 +13,7 @@ const productsArray = [
     image: hat,
     price: 15.99,
     description: "A baseball cap",
+    featured: "featured",
   },
   {
     id: 2,
@@ -46,7 +47,7 @@ const productsArray = [
 
 const items = productsArray.map((item) => {
   return (
-    <div className="card stacked">
+    <div className={`card stacked ${item.featured}`}>
       <img src={item.image} alt="" />
       <div className="card__content">
         <h2 className="card__title">{item.title}</h2>
