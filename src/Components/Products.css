@@ -90,7 +90,7 @@ body {
   font-family: var(--ff-primary);
   font-size: 1rem;
   /* for demo purposes only */
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
 }
 
 .container{
