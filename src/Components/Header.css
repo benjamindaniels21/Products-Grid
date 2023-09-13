@@ -1,7 +1,14 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 
 h1 {
   background-color: firebrick;
-  height: 4rem;
+  height: 8rem;
   color: white;
+  font-size: 4rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
-
